@@ -160,6 +160,17 @@ Ga.forEach((kadtlist)=>{
         'Saiha',
         'Serchhip',
         ]
+        Tg.forEach((kadtlist)=>{
+            let li=document.createElement('li')
+            li.classList.add('listitem')
+            li.innerHTML=kadtlist
+            let newww=document.querySelector('.listofdistrict')
+            newww.appendChild(li)  
+            
+            
+            
+        
+         })
     }
 
 }

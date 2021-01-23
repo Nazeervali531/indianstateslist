@@ -161,6 +161,5 @@ Ga.forEach((kadtlist)=>{
         'Serchhip',
         ]
     }
-    select.value=''
 
 }
